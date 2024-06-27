@@ -1,8 +1,10 @@
-// Importing the axios library for making HTTP requests
+// THIS IS AN EXAMPLE OF CODE USING AXIOS. IT SHOWS THE BENEFITS OF USING AXIOS
+
+
+
 const axios = require('axios');
 
-// Making a GET request to a public API endpoint
-axios.get('https://jsonplaceholder.typicode.com/posts')
+axios.get('https://jsonplaceholder.typicode.com/posts')  // Making a GET request to a public API endpoint
   .then(response => {
     // Logging the response data to the console
     console.log(response.data); // Handle the response data
